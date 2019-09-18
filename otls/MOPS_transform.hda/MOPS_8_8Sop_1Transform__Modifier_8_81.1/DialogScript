@@ -127,6 +127,15 @@
         type    string
         default { "mops_falloff" }
         disablewhen "{ do_weight == 0 }"
+        menureplace {
+            [ "result = []" ]
+            [ "for attr in hou.pwd().inputs()[0].geometry().pointAttribs():" ]
+            [ "    if attr.dataType() == hou.attribData.Float and attr.size() == 1:" ]
+            [ "      result.append(attr.name())" ]
+            [ "      result.append(attr.name())" ]
+            [ "return result" ]
+            language python
+        }
         parmtag { "autoscope" "0000000000000000" }
     }
     parm {
