@@ -32,23 +32,26 @@ Content-Type: text/plain
 
 sopflags sopflags = 
 comment ""
-position 4.74234 -2.46559
-connectornextid 0
+position 7.15946 -61.9473
+connectornextid 2
 flags =  lock off model off template off footprint off xray off bypass off display off render off highlight off unload off savedata off compress on colordefault on exposed on
 outputsNamed3
 {
+1 "output1"
 }
 inputsNamed3
 {
+0 	MOPs_Randomize_rotation 1 1 "input1"
 }
 inputs
 {
+0 	MOPs_Randomize_rotation 0 1
 }
 stat
 {
-  create 1565237156
-  modify 1565237595
-  author Henry@LAPPY586
+  create 1568252488
+  modify 1568832946
+  author k.weber@WSB-LA-03.buck.local
   access 0777
 }
 color UT_Color RGB 0.8 0.8 0.8 
@@ -498,8 +501,8 @@ vex_matchattrib	[ 0	locks=0	autoscope=0 ]	(	id	)
 vex_inplace	[ 0	locks=0	autoscope=0 ]	(	"off"	)
 vex_selectiongroup	[ 0	locks=0	autoscope=0 ]	(	""	)
 folder1	[ 0	locks=0 ]	(	0	0	)
-uniform_scale	[ 0	locks=0	autoscope=0 ]	(	[ uniform_scale	1 ] 	)
-translate	[ 0	locks=0	autoscope=0 ]	(	[ translatex	0 ] 	[ translatey	0.20000000000000001 ] 	[ translatez	0 ] 	)
+uniform_scale	[ 0	locks=0	autoscope=0 ]	(	[ uniform_scale	3 ] 	)
+translate	[ 0	locks=0	autoscope=0 ]	(	[ translatex	0 ] 	[ translatey	0 ] 	[ translatez	0 ] 	)
 rotate	[ 0	locks=0	autoscope=0 ]	(	[ rotatex	0 ] 	[ rotatey	0 ] 	[ rotatez	0 ] 	)
 scale	[ 0	locks=0	autoscope=0 ]	(	[ scalex	1 ] 	[ scaley	1 ] 	[ scalez	1 ] 	)
 local	[ 0	locks=0	autoscope=0 ]	(	[ local	1 ] 	)
@@ -639,7 +642,7 @@ do_translate	[ 0	locks=0	autoscope=0 ]	(	"on"	)
 do_rotate	[ 0	locks=0	autoscope=0 ]	(	"on"	)
 do_scale	[ 0	locks=0	autoscope=0 ]	(	"on"	)
 do_falloff	[ 0	locks=0	autoscope=0 ]	(	[ do_falloff	1 ] 	)
-falloff_attribute	[ 0	locks=0	autoscope=0 ]	(	[ falloff_attribute	mops_falloff ] 	)
+falloff_attribute	[ 0	locks=0	autoscope=0 ]	(	[ falloff_attribute	resize_falloff ] 	)
 do_pivots	[ 0	locks=0	autoscope=0 ]	(	"off"	)
 ignore_no_falloff	[ 0	locks=0	autoscope=0 ]	(	[ ignore_no_falloff	1 ] 	)
 rotate_mode	[ 0	locks=0	autoscope=0 ]	(	[ rotate_mode	0 ] 	)

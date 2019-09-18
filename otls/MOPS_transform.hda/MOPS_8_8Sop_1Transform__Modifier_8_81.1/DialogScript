@@ -126,7 +126,7 @@
         label   "Falloff Attribute"
         type    string
         default { "mops_falloff" }
-        disablewhen "{ do_weight 0 }"
+        disablewhen "{ do_weight == 0 }"
         parmtag { "autoscope" "0000000000000000" }
     }
     parm {
@@ -143,6 +143,7 @@
         label   "Vexpression"
         type    string
         default { "// translate = {0,0,0};\n// rotate = {0,0,0};\n// scale = {1,1,1};\n// pscale = 1;\n// local = 1;" }
+        hidewhen "{ do_vexpression == 0 }"
         parmtag { "autoscope" "0000000000000000" }
         parmtag { "editor" "1" }
         parmtag { "editorlang" "vex" }
