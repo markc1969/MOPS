@@ -1,7 +1,7 @@
 {
 	"env": [
 		{
-			"MOPS": "F:\Houdini 19.5.682\packages"
+			"MOPS": "/Users/markcaller/Documents/GitHub/MOPS"
 		},
 		{
 			"HOUDINI_PYTHONWARNINGS": "ignore"
