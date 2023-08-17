@@ -1,7 +1,7 @@
 {
 	"env": [
 		{
-			"MOPS": "C:/Users/Henry/Projects/VFX/MOPS"
+			"MOPS": "F:\Houdini 19.5.682\packages"
 		},
 		{
 			"HOUDINI_PYTHONWARNINGS": "ignore"
